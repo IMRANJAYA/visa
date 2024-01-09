@@ -1,0 +1,70 @@
+
+.my-color{
+    color: #ED008C;
+}
+.white{
+    color: #ffffff;
+}
+.black{
+    color: #000000;
+}
+
+.my-card-img{
+    width: 50px;
+    align-self: center;
+}
+
+.card{
+    border: none !important;
+}
+
+.hhhyygg{
+    width: 150px;
+    border-radius: 5px;
+    margin: 0px 0px 0px -11px;
+}
+.center1{
+    margin: 5px 0px 0px 150px;
+    border: 1px solid #ED008C;
+}
+.center1:hover{
+    color: #ffffff;
+    background-color: #ED008C;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.hero-background{
+    background-image: url(https://www.whatspaper.com/wp-content/uploads/2022/01/hacker-wallpaper-whatspaper-10.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+.hero-title{
+    margin-top:130px;
+}
+.nav-logo{
+    width: 50px;
+}
+.nav-logo:hover{
+    transition: 0.5s ;
+    transform: scale(1.1);
+}
+
+.btn-primary:hover{
+    background-color: #ED008C;
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+.nav-bar{
+    box-shadow: 0px 0px 20px 2px #ED008C;
+}
+
+.Footer{
+    box-shadow: 0px 20px 20px 20px #ED008C;
+}
+
+.nav50{
+    color: #ED008C !important;
+}

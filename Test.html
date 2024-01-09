@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMRAN</title>
+    <link rel="icon" type="image/x-icon" href="/img/Doctor_BD.png">
+    <link rel="stylesheet" href="./bootstrap.css"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-secondary-subtle">
+
+<script>
+
+
+//let fatherAge=50
+//let sonAge=20
+//let sum=fatherAge+sonAge
+
+//document.write(sum)
+
+//object
+
+// Array write
+// Array index Number
+// For loop over array
+
+//let car=[
+ //   {model:"prius",year:2024,color:'rad',cc:1800,driver:true}
+//]
+//document.write(car.year)
+
+//console.log(car);
+
+//Array
+
+let country=['Ban','Ind','Pan','USA','CAN']
+
+document.write(country[2]);
+
+let marks=80;
+
+if(marks>=80){
+    document.write('A+')
+}
+
+else if(marks<80 && marks>=70){
+    document.write('A')
+}
+
+else if(marks<70 && marks>=60){
+    document.write('A-')
+}
+
+else if(marks<60 && marks>=50){
+    document.write('B')
+}
+
+else if(marks<50 && marks>=40){
+    document.write('C')
+}
+
+else if(marks<40 && marks>=30){
+    document.write('D')
+}
+
+else if(marks<30 && marks>=1){
+    document.write('F')
+}
+
+switch(marks){
+
+    case 80:
+        document.write('A+')
+        break
+
+        case 70:
+        document.write('A')
+        break
+
+        case 60:
+        document.write('A-')
+        break
+
+        case 50:
+        document.write('B')
+        break
+
+        case 40:
+        document.write('C')
+        break
+
+        case 30:
+        document.write('D')
+        break
+
+        default:
+            document.write('F')
+
+}
+
+let a=10;
+let b=20;
+let c=30;
+let d=40;
+let e=50;
+let f=60;
+let g=70;
+
+let sum=a+b+c+d+e+f+g;
+
+document.write(sum);
+
+// for loop
+
+/*for(x=0;x<=100;x=x+5){
+
+    document.write(x+'<br/>')
+}*/
+
+
+// while loop
+/*
+let x=0
+while(x<=100){
+
+    document.write(x+'<br/>')
+    x=x+5
+}*/
+
+// Do while loop
+let x=0
+do{
+    document.write(x+ '<br/>')
+    x=x+5
+}
+while(x<=30)
+
+</script>
+
+
+<script>
+
+// Regular function write
+function addTwo(){
+    let a=10;
+    let b=20;
+    document.write(a+b);
+}
+//function call
+addTwo()
+
+
+// Number function write
+function addTwo(x,y,z){
+
+    document.write(x+y-z + '<br/>');
+}
+//function call
+addTwo(5,10,5);
+addTwo(10,10,20);
+
+
+// sms function write
+function MyFun(sms){
+
+document.write(sms + "<br/>")
+}
+//function call
+MyFun("This is SMS");
+MyFun(20);
+MyFun([1,2,3,4]);
+MyFun(false);
+
+
+// Maltupul Ara function write
+
+function MyFun( ...params ){
+
+    let sum= params[0] + params[1]
+
+document.write(sum);
+}
+//function call
+MyFun(10,20,30,40,50 );
+
+
+// return Ara function write
+
+function MyAdd(){
+return false
+return ['a','b']
+return {name:"Doctor BD"}
+return "Hello"
+return 20
+
+}
+//function call
+let result=MyAdd();
+document.write(result);
+
+//function
+
+function Fun1(){
+    return Fun2()
+}
+
+function Fun2(){
+    return Fun3()
+}
+
+function Fun3(){
+    document.write("hollo i am from Fun3")
+}
+//function call
+Fun1();
+
+
+
+// Array write
+// Array index Number
+// For loop over array
+
+let city=["Dhaka","Faridpur","Khulna"];
+
+for (i=0;i<=city.length; i=i+1){
+
+document.write(city[i] + "<br/>")
+
+}
+
+
+
+
+
+
+
+
+
+</script>
+"1:21m"
+
+</body>
+</html>
